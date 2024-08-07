@@ -1,0 +1,170 @@
+.mainSectionsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* background-color: red; */
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+}
+
+.variantContainer {
+  width: 16%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+}
+
+.artistsImages {
+  border-radius: 100%;
+  width: 190px;
+  height: 190px;
+  object-fit: cover;
+}
+
+.sectionContainer {
+  border-radius: 6px;
+  transition: background-color 0.3s;
+  position: relative;
+  /* background-color: blue; */
+  width: 100%;
+  padding: 10px;
+}
+
+.sectionContainer:hover {
+  background-color: hsla(0, 0%, 100%, 0.05);
+}
+
+.sectionContainer > .playIcon {
+  display: none;
+}
+
+.sectionContainer:hover > .playIcon {
+  display: flex;
+}
+
+.sectionContainer > .playIcon {
+  display: flex;
+  position: absolute;
+  background-color: #1ed760;
+  width: 50px;
+  height: 50px;
+  bottom: 57px;
+  right: 20px;
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  transition: bottom 0.3s, opacity 0.3s, transform 0.3s, background-color 0.3s;
+  transform: translateY(8px);
+  opacity: 0;
+}
+
+.sectionContainer:hover > .playIcon {
+  opacity: 1;
+  bottom: 65px;
+  transform: translateY(0);
+}
+
+.playIcon:hover {
+  background-color: #3be477;
+  width: 52px;
+  height: 52px;
+}
+
+.playIcon svg {
+  width: 50%;
+  height: 50%;
+}
+
+/* Media Queries for responsive display */
+@media (max-width: 1380px) {
+  .artistsImages {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .variantContainer {
+    width: 20%;
+  }
+  .item6 {
+    display: none;
+  }
+  .artistsImages {
+    width: 160px;
+    height: 160px;
+  }
+}
+@media (max-width: 1193px) {
+  .artistsImages {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+@media (max-width: 1110px) {
+  .variantContainer {
+    width: 25%;
+  }
+  .item5 {
+    display: none;
+  }
+
+  .artistsImages {
+    width: 180px;
+    height: 180px;
+  }
+}
+@media (max-width: 1081px) {
+  .artistsImages {
+    width: 160px;
+    height: 160px;
+  }
+}
+@media (max-width: 1000px) {
+  .artistsImages {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+@media (max-width: 950px) {
+  .variantContainer {
+    width: 33.33%;
+  }
+  .item4 {
+    display: none;
+  }
+  .artistsImages {
+    width: 180px;
+    height: 180px;
+  }
+}
+@media (max-width: 890px) {
+  .artistsImages {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+@media (max-width: 825px) {
+  .variantContainer {
+    width: 50%;
+  }
+  .item3 {
+    display: none;
+  }
+
+  .artistsImages {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+@media (max-width: 697px) {
+  .mainSectionsContainer {
+    margin: left;
+  }
+}
