@@ -1,3 +1,32 @@
+/* NavBar */
+
+.navContainer {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(179, 179, 179);
+  font-family: sans-serif;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+  align-items: center;
+}
+
+.nextPrevContainer {
+  display: flex;
+  gap: 15px;
+}
+
+.nextPrevContainer > svg {
+  width: 35px;
+  height: 35px;
+  padding: 10px;
+  border-radius: 100%;
+  background-color: black;
+}
+
+.nextPrevContainer > svg:hover {
+  cursor: not-allowed;
+}
+
 .mainSectionsContainer {
   display: flex;
   flex-wrap: wrap;
@@ -18,9 +47,13 @@
 
 .artistsImages {
   border-radius: 100%;
-  width: 190px;
-  height: 190px;
+  width: 180px;
+  height: 180px;
   object-fit: cover;
+}
+
+.sectionContainer.NotPopularArtist > .artistsImages {
+  border-radius: 6px;
 }
 
 .sectionContainer {
