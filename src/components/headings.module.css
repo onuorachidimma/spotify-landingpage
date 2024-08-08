@@ -1,0 +1,28 @@
+.headingsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+  color: white;
+  letter-spacing: -2px;
+}
+
+.show {
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(179, 179, 179);
+  text-decoration: none;
+}
+
+.heading:hover,
+.show:hover {
+  text-decoration: underline;
+}
