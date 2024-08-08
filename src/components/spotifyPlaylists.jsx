@@ -8,12 +8,12 @@ import spotifyPlaylists5 from "../assets/images/spotifyPlaylists5.jpeg";
 import spotifyPlaylists6 from "../assets/images/spotifyPlaylists6.jpeg";
 
 const spotify = [
-  { src: spotifyPlaylists1, name: "Rema", role: "Radio" },
-  { src: spotifyPlaylists2, name: "Asake", role: "Radio" },
-  { src: spotifyPlaylists3, name: "Burna Boy", role: "Radio" },
-  { src: spotifyPlaylists4, name: "Olamide", role: "Radio" },
-  { src: spotifyPlaylists5, name: "Victony", role: "Radio" },
-  { src: spotifyPlaylists6, name: "Young Jonn", role: "Radio" },
+  { src: spotifyPlaylists1, name: "Viral Hits", playlist: "By Spotify" },
+  { src: spotifyPlaylists2, name: "ChillHop", playlist: "By Spotify" },
+  { src: spotifyPlaylists3, name: "Soft Pop Hits", playlist: "By Spotify" },
+  { src: spotifyPlaylists4, name: "PHONK", playlist: "RBy Spotify" },
+  { src: spotifyPlaylists5, name: "Jazz in the Background", playlist: "By Spotify" },
+  { src: spotifyPlaylists6, name: "RapCaviar", playlist: "By SPotify" },
   // { src: spotifyPlaylists7, name: "Ruger", role: "Radio" },
 ];
 

@@ -11,12 +11,12 @@ import popularRadio6 from "../assets/images/popularRadio6.jpeg";
 import Footer from "./footer";
 
 const radio = [
-  { src: popularRadio1, name: "Rema", role: "Radio" },
-  { src: popularRadio2, name: "Asake", role: "Radio" },
-  { src: popularRadio3, name: "Burna Boy", role: "Radio" },
-  { src: popularRadio4, name: "Olamide", role: "Radio" },
-  { src: popularRadio5, name: "Victony", role: "Radio" },
-  { src: popularRadio6, name: "Young Jonn", role: "Radio" },
+  { src: popularRadio1, name: "Mohbad Radio", radio: "With Zlatan, T.I BLAZE, Bella Shmurda and more" },
+  { src: popularRadio2, name: "Omah Lay Radio", radio: "With Victony, Joeboy, Bella Shmurda and more" },
+  { src: popularRadio3, name: "Seyi Vibez Radio", radio: "With Balloranking, BhadBoi OML, Barry Jhay and more" },
+  { src: popularRadio4, name: "Ayo Maff Radio", radio: "With Rybeena, Cazulee, Muyeez and more" },
+  { src: popularRadio5, name: "Asake Radio", radio: "With Seyi Vibez, Young Jonn, Bnxn and more" },
+  { src: popularRadio6, name: "Tml Vibez Radio", radio: "With Muyeez, Vibez Inc, Billion Solar and more" },
   // { src: popularRadio7, name: "Ruger", role: "Radio" },
 ];
 

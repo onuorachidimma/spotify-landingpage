@@ -8,12 +8,12 @@ import featuredCharts5 from "../assets/images/featuredCharts5.jpg";
 import featuredCharts6 from "../assets/images/featuredCharts6.jpg";
 
 const charts = [
-  { src: featuredCharts1, name: "Rema", role: "Radio" },
-  { src: featuredCharts2, name: "Asake", role: "Radio" },
-  { src: featuredCharts3, name: "Burna Boy", role: "Radio" },
-  { src: featuredCharts4, name: "Olamide", role: "Radio" },
-  { src: featuredCharts5, name: "Victony", role: "Radio" },
-  { src: featuredCharts6, name: "Young Jonn", role: "Radio" },
+  { src: featuredCharts1, name: "Top Songs - Global", chart: "Your weekly update of the most played tracks right now - Global." },
+  { src: featuredCharts2, name: "Top Songs - USA", chart: "Your weekly update of the most played tracks right now - USA." },
+  { src: featuredCharts3, name: "Top 50 - Global", chart: "Your daily update of the most played tracks right now - Global." },
+  { src: featuredCharts4, name: "Top 50 - USA", chart: "Your daily update of the most played tracks right now - USA." },
+  { src: featuredCharts5, name: "Viral 50 - Global", chart: "Your daily update of the most viral tracks right now - Global." },
+  { src: featuredCharts6, name: "Viral 50 - USA", chart: "Your daily update of the most viral tracks right now - USA." },
   // { src: featuredCharts7, name: "Ruger", role: "Radio" },
 ];
 

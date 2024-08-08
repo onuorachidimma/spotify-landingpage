@@ -11,12 +11,12 @@ import popularAlbum6 from "../assets/images/popularAlbum6.jpeg";
 import Footer from "./footer";
 
 const albums = [
-  { src: popularAlbum1, name: "Rema", album: "Artist" },
-  { src: popularAlbum2, name: "Asake", album: "Artist" },
-  { src: popularAlbum3, name: "Burna Boy", album: "Artist" },
-  { src: popularAlbum4, name: "Olamide", album: "Artist" },
-  { src: popularAlbum5, name: "Victony", album: "Artist" },
-  { src: popularAlbum6, name: "Young Jonn", album: "Artist" },
+  { src: popularAlbum1, name: "Ikigai / 生き甲斐, Vol. 1", album: "Olamide" },
+  { src: popularAlbum2, name: "Loseyi Professor", album: "Seyi Vibes" },
+  { src: popularAlbum3, name: "HEIS", album: "Rema" },
+  { src: popularAlbum4, name: "Jiggy Forever", album: "Young Jonn" },
+  { src: popularAlbum5, name: "Work Of Art", album: "Asake" },
+  { src: popularAlbum6, name: "Stubborn", album: "Victony" },
   // { src: popularArtist7, name: "Ruger", role: "Artist" },
 ];
 

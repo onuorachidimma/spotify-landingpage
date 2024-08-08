@@ -15,8 +15,8 @@ const List = ({ items, variant, itemClass }) => {
               alt={item.name}
               className={styles.artistsImages}
             />
-            <p>{item.name}</p>
-            <p>{item.role || item.album}</p>
+            <p className={styles.category}>{item.name}</p>
+            <p className={styles.categoryName}>{item.role || item.album || item.radio || item.chart || item.playlist}</p>
             <div className={styles.playIcon}>
               <svg
                 data-encore-id="icon"
