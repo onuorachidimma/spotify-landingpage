@@ -1,0 +1,169 @@
+.sideBarContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.sideBarHomeStory {
+  padding: 1.5rem 0 1.5rem 1.5rem;
+  background-color: #121212;
+  border-radius: 5px;
+  margin: 10px 0 0 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height:23%;
+}
+
+.icons {
+  width: 25px;
+  height: 25px;
+}
+
+#me {
+  color: white;
+}
+
+.iconsContainer {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 8px 0;
+}
+.iconsContainer a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(198, 198, 198);
+  transform: color 0.3s ease, text-decoration 0.3s ease;
+  display: block;
+}
+.iconsContainer a:hover {
+  color: white;
+}
+
+.libraryAndPlusContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem 1.5rem 1.5rem;
+}
+
+.sideaBarLibrary {
+  background-color: #121212;
+  margin: 0 0 10px 10px;
+  border-radius: 5px;
+  height: 73%;
+}
+
+.plusIcon > svg {
+  width: 35px;
+  height: 35px;
+  padding: 10px;
+  border-radius: 100%;
+  background-color: black;
+}
+
+.plusIcon > svg:hover {
+  background-color: #1f1f1f;
+}
+
+
+.sidebarPlaylistAndPodcast{
+  height: 40%;
+  
+  overflow-y: scroll;
+  scrollbar-width: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 25px 10px;
+  
+  
+}
+.sidebarPlaylistAndPodcast > div{
+  background-color: #1f1f1f;
+  border-radius: 5px;
+  padding: 1rem;
+  
+}
+
+.sidebarPlaylistAndPodcast:hover {
+  scrollbar-width: thin;
+}
+
+.sidebarPlaylistAndPodcast:hover::-webkit-scrollbar {
+  width: 8px;
+}
+
+
+.sidebarPlaylistAndPodcast:hover::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+}
+
+/* .btnContainer{
+  background-color: yellow;
+} */
+
+.create{
+font-size: 16px;
+font-weight: 700;
+margin-bottom: 14px;
+}
+
+.todo{
+font-size: 14px;
+font-weight: 400;
+margin-bottom: 16px;
+}
+
+.libraryFooter {
+  padding: 1rem 1.5rem 1.5rem 1.5rem;
+}
+
+.libraryFooter ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.libraryFooter ul li a {
+  text-decoration: none;
+  color: rgb(179, 179, 179);
+  font-size: 11px;
+}
+.languageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  border: 1px solid #818181;
+  padding: 8px 15px;
+  width: 34%;
+  text-align: center;
+  border-radius: 80px;
+  margin: 1.5rem;
+  transition: transform 0.3s ease, border 0.3s ease, width 0.3s ease;
+}
+
+.languageContainer:hover {
+  width: 34.5%;
+  border: 2px solid #818181;
+  transform: scale(1.09);
+}
+
+.languageContainer svg {
+  width: 18px;
+  height: 18px;
+}
+.languageContainer a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  font-weight: 700;
+}
