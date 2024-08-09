@@ -10,61 +10,33 @@
   border-radius: 80px;
   background-color: white;
   padding: 16px 36px;
-  transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth transition */
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .spotifyBtns:hover {
   background-color: #f0f0f0;
-  transform: scale(1.09); /* Increases the button size on hover */
+  transform: scale(1.09);
 }
 
+.yellowButtonContainer {
+  display: flex;
+  margin-bottom: 2px;
+}
 
-  /* .a{
-    display: block;
-    width: 100%;
-  } */
-  
-  .yellowButtonContainer {
-    display: flex;
-    margin-bottom: 2px;
-   
-    /* border: none;
-    outline: none;
-    
-    border-radius: 100%;
-    
-    text-align: center;
-    cursor: pointer;
-    border-radius: 80px;
-    background-color: white;
-    padding: 16px 36px;
-    width: 20%; */
-    
-  }
+.yellowButtonContainer:hover {
+  /* background-color: #f0f0f0; */
+}
 
-  .yellowButtonContainer:hover{
-    /* background-color: #f0f0f0; */
-  } 
-
-
-  
-  
-  .yellowButtonContainer.noBg .spotifyBtns {
-
-color: rgb(179, 179, 179);
+.yellowButtonContainer.noBg .spotifyBtns {
+  color: rgb(179, 179, 179);
   background-color: transparent;
- 
-  }
-  
-  .yellowButtonContainer.center {
- 
-    text-align: center;
-    padding: 10px 58px;
-    margin: left;
-  } 
+}
 
+.yellowButtonContainer.whiteBgwithThinPadding .spotifyBtns {
+  font-size: 14px;
+  padding: 8px 19px;
+}
 
-  .navButtonContsiner{
-    display: flex;
-  }
-  
+.navButtonContsiner {
+  display: flex;
+}
