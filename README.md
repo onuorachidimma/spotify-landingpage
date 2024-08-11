@@ -1,4 +1,36 @@
-# Getting Started with Create React App
+# Day 5: Cloning the Spotify Landing Page
+
+
+## Challenge Task:
+Today's focus is on mastering layout, styling, and responsiveness in React JS. Learn how to replicate the Spotify landing page to enhance your understanding of React components, CSS, and responsive design.
+
+## Instructions:
+
+### Learning Session:
+- **Introduction to Flexbox and Grid Layout in CSS:** Understanding how to create flexible and responsive layouts.
+- **Styling React Components with CSS and CSS-in-JS:** Applying styles to React components using various methods.
+- **Responsive Design Principles and Media Queries:** Ensuring the landing page looks great on different screen sizes.
+
+## Technologies Used:
+- **React JS:** For building the user interface.
+- **CSS/CSS-in-JS:** For styling components.
+- **HTML:** For structuring the page content.
+
+## Screenshots:
+![Spotify Landing Page Screenshot](./src/assets/images/spotify_desktop.PNG)
+![Spotify Landing Page Screenshot](./src/assets/images/spotify_mobile.PNG)
+
+## Live Link:
+[View Live Demo](https://weather-app-mbhx.vercel.app/)
+- Explore the replicated Spotify landing page with responsive design and interactive elements.
+
+## Setup Instructions:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/spotify-landing-page-clone.git
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
