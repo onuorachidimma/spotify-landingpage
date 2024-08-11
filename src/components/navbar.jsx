@@ -1,13 +1,17 @@
 import styles from "./main.module.css";
 import Button from "./button";
 import buttonStyles from "./button.module.css";
-import { PreviousIcon, NextIcon } from "./svgIcon";
+import { PreviousIcon, NextIcon, Logo } from "./svgIcon";
 const NavBar = () => {
   return (
     <div className={styles.navContainer}>
       <div className={styles.nextPrevContainer}>
         <PreviousIcon />
         <NextIcon />
+      </div>
+
+      <div className={styles.navLogo}>
+        <Logo/>
       </div>
       <div className={buttonStyles.navButtonContsiner}>
         <Button variant="noBg">

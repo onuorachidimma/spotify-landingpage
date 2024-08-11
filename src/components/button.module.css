@@ -40,3 +40,18 @@
 .navButtonContsiner {
   display: flex;
 }
+
+
+@media (max-width: 712px){
+  .spotifyBtns {
+    padding: 14px 30px;
+  }
+
+}
+@media (max-width: 695px){
+  .spotifyBtns {
+    font-size: 12px;
+    padding: 14px 28px;
+  }
+
+}

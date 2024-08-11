@@ -11,7 +11,7 @@
   border-radius: 5px;
   min-width: 250px;
   max-width: 400px;
-  width: 20%; /* Default width as a percentage */
+  width: 20%;
 }
 
 .resizer {
@@ -35,5 +35,21 @@
   scrollbar-width: 3px;
   background-color: #121212;
   margin: 10px;
- border-radius: 4px;
+  border-radius: 4px;
+}
+
+@media (max-width: 695px) {
+  .sidebar,
+  .resizer {
+    display: none;
+  }
+
+  .container {
+    height: calc(100vh - 60px);
+  }
+}
+@media (max-width: 460px) {
+  .container {
+    height: calc(100vh - 80px);
+  }
 }

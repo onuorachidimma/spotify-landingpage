@@ -18,6 +18,11 @@
   cursor: pointer;
 }
 
+@media (max-width: 695px) {
+  .footer {
+    font-size: 10px;
+  }
+}
 @media (max-width: 890px) {
   .footerSignup {
     display: none;

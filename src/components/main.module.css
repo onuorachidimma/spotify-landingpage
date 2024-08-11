@@ -10,6 +10,9 @@
   align-items: center;
 }
 
+.navLogo {
+  display: none;
+}
 .nextPrevContainer {
   display: flex;
   gap: 15px;
@@ -31,7 +34,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  /* background-color: red; */
   width: 100%;
   margin: auto;
   padding: 10px;
@@ -42,7 +44,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: red; */
 }
 
 .artistsImages {
@@ -60,7 +61,6 @@
   border-radius: 6px;
   transition: background-color 0.3s;
   position: relative;
-  /* background-color: blue; */
   width: 100%;
   padding: 10px;
 }
@@ -110,17 +110,15 @@
   height: 50%;
 }
 
-
 /* List component */
 
-.category{
+.category {
   color: rgb(255, 255, 255);
   font-size: 16px;
   font-weight: 600;
   margin: 8px 0;
-
 }
-.categoryName{
+.categoryName {
   color: #b3b3b3;
   font-size: 13px;
   font-weight: 400;
@@ -130,8 +128,8 @@
 /* Media Queries for responsive display */
 @media (max-width: 1380px) {
   .artistsImages {
-    width: 150px;
-    height: 150px;
+    width: 145px;
+    height: 145px;
   }
 }
 
@@ -143,14 +141,14 @@
     display: none;
   }
   .artistsImages {
-    width: 160px;
-    height: 160px;
+    width: 155px;
+    height: 155px;
   }
 }
 @media (max-width: 1193px) {
   .artistsImages {
-    width: 140px;
-    height: 140px;
+    width: 135px;
+    height: 135px;
   }
 }
 
@@ -163,20 +161,20 @@
   }
 
   .artistsImages {
-    width: 180px;
-    height: 180px;
+    width: 175px;
+    height: 175px;
   }
 }
 @media (max-width: 1081px) {
   .artistsImages {
-    width: 160px;
-    height: 160px;
+    width: 155px;
+    height: 155px;
   }
 }
 @media (max-width: 1000px) {
   .artistsImages {
-    width: 140px;
-    height: 140px;
+    width: 135px;
+    height: 135px;
   }
 }
 
@@ -188,14 +186,14 @@
     display: none;
   }
   .artistsImages {
-    width: 180px;
-    height: 180px;
+    width: 175px;
+    height: 175px;
   }
 }
 @media (max-width: 890px) {
   .artistsImages {
-    width: 160px;
-    height: 160px;
+    width: 155px;
+    height: 155px;
   }
 }
 
@@ -208,13 +206,55 @@
   }
 
   .artistsImages {
-    width: 180px;
-    height: 180px;
+    width: 175px;
+    height: 175px;
   }
 }
 
-@media (max-width: 697px) {
+@media (max-width: 695px) {
   .mainSectionsContainer {
-    margin: left;
+    width: 90%;
+    padding: 0;
+  }
+
+  .variantContainer {
+    width: 50%;
+    margin-bottom: 2px;
+    text-align: center;
+  }
+
+  .artistsImages {
+    width: 190px;
+    height: 190px;
+  }
+
+  .sectionContainer > .playIcon {
+    width: 50px;
+    height: 50px;
+    bottom: 57px;
+  }
+
+  .nextPrevContainer {
+    display: none;
+  }
+
+  .navLogo {
+    display: block;
+  }
+}
+
+@media (max-width: 495px) {
+  .mainSectionsContainer {
+    width: 95%;
+  }
+
+  .artistsImages {
+    width: 100px;
+    height: 100px;
+  }
+
+  .sectionContainer > .playIcon {
+    width: 30px;
+    height: 30px;
   }
 }
